@@ -1,0 +1,59 @@
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+input[type="file"] {
+  margin: 10px 0;
+}
+
+.options {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+label {
+  font-size: 16px;
+}
+
+button {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.canvas-section {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.canvas {
+  border: 1px solid #888;
+  margin-top: 10px;
+  max-width: 100%;
+}
+
+.pixel-info {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #444;
+}
